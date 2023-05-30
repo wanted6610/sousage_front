@@ -1,7 +1,10 @@
 <template>
   <div class="product">
     <img class="product__image" :src="getImgUrl(product.image)" />
+    <div class="product__header">
     <p class="product__title">{{product.name}}</p>
+    <p class="product__title">{{product.price}}р.</p>
+    </div>
     <p class="product__desc">{{product.desc}}</p>
     <button class="product__button">В корзину</button>
   </div>
@@ -34,6 +37,11 @@ export default {
     width: 100%;
     height: 92px;
     object-fit: cover;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   &__title {
     font-weight: 400;
