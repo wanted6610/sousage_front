@@ -23,9 +23,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.list {
-    margin-top: 15px;
-}
 .grid {
     display: grid;
     grid-template-columns: calc(50% - 7.5px) calc(50% - 7.5px);

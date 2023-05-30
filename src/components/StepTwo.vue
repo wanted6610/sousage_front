@@ -6,9 +6,7 @@
 </template>
 
 <script>
-import ActionButton from './ActionButton.vue'
 export default {
-  components: { ActionButton },
     name: 'StepTwo'
 }
 </script>

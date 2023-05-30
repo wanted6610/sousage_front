@@ -26,22 +26,22 @@ export default {
 <style scoped lang="scss">
 .product {
   padding: 10px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
-  box-shadow: 0px 0px 10px 0px rgba(34, 60, 80, 0.2);
   text-align: left;
   display: flex;
   flex-direction: column;
   &__image {
     width: 100%;
+    width: 100%;
+    height: 92px;
+    object-fit: cover;
   }
   &__title {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
+    margin-top: 10px;
   }
   &__desc {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 10px;
     flex: 1;
   }

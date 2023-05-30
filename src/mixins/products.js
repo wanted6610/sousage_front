@@ -3,7 +3,7 @@ export const productsMixin = {
         return {
             products: [
                 {
-                    name: 'Сосиска в тесте',
+                    name: 'Сосиска',
                     desc: 'Сочная сосиска, запеченная в хрустящем тесте',
                     image: 'sousage_preview.jpg',
                     price: 50,

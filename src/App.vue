@@ -50,7 +50,7 @@ html,body, #app{
 }
 
 .main {
-  padding: 15px 15px 65px 15px;
+  padding: 15px;
 }
 .counter {
   background-color: #a9a9a9;
